@@ -1,0 +1,4 @@
+Action_tree利用原始行为数据训练得到行为模型
+Action_pre将原始行为数据带入行为模型得到行为的标签，统计（人行为，机器行为）向量
+valiation_tree_action利用二维向量训练得到用户行为模型
+answer利用以上两个模型测试验证集
